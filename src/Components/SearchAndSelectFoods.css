@@ -1,0 +1,42 @@
+.food-middle-column {
+  background-color: 'purple';
+}
+
+input {
+  background: #fff;
+  font-size: 1rem;
+  width: 70%;
+  padding: 0.5rem;
+  padding-left: 1rem;
+  margin-top: 5%;
+  margin-left: 15%;
+  border: none;
+  box-shadow: 0px 0.8px 2px grey;
+}
+
+.foodCard {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin-top: 2.5em;
+  width: 30%;
+  margin-left: 1em;
+  height: 30%;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  border-radius: 10px;
+  padding: 0.5em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-image {
+  width: 80px;
+  height: 80px;
+  position: relative;
+  border-radius: 10px;
+}

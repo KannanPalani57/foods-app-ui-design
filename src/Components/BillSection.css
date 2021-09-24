@@ -1,0 +1,115 @@
+.btns {
+  cursor: pointer;
+  box-shadow: 0 3px 2px rgb(0 0 0 / 0.2);
+  display: flex;
+  flex-direction: row;
+  height: 10vh;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.btns button {
+  cursor: pointer;
+  width: 2.5rem;
+  height: 2rem;
+  background-color: #ffae42;
+  border: none;
+  border-radius: 8px;
+  color: white;
+}
+
+/* bill section */
+
+/* .bill-section {
+  } */
+.bill-header {
+  margin-top: 1vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 10vh;
+}
+
+.clearAll {
+  background-color: #ffe5ad;
+  color: orange;
+  border: none;
+  padding: 0.5em;
+  border-radius: 10px;
+  margin-left: 4em;
+}
+
+.billbtn {
+  margin-left: 0.8em;
+  width: 2.5rem;
+  height: 2rem;
+  background-color: #ffae42;
+  border: none;
+  border-radius: 8px;
+  color: white;
+}
+
+.bill-card {
+  margin-top: 1.5em;
+  cursor: pointer;
+  width: 90%;
+  margin-left: 1em;
+  height: 40%;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  border-radius: 10px;
+  padding: 0.5em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.img {
+  width: 30%;
+  height: 20%;
+}
+
+.bill-area-btns {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  margin-left: 0.8em;
+}
+
+.bill-area-btns button {
+}
+
+.bill-items {
+  padding-top: 0.5em;
+  padding-bottom: 2.5em;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 3em;
+  margin-right: 4em;
+  margin-top: 1em;
+}
+
+.bill-list {
+  margin-top: 1em;
+  padding: 1em 0;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.pay-now-btn {
+  cursor: pointer;
+  width: 20vw;
+  height: 10vh;
+  margin-top: 2em;
+  margin-left: 2.1em;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: 10px;
+  background-color: #228b22;
+  border: none;
+  font-weight: bold;
+  color: #fff;
+}
